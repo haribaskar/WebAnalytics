@@ -20,7 +20,7 @@ object MysqlClient {
     conn
   }
   val autoIncValuesForTable: Map[String, Array[String]] = Map(
-    "grp" -> Array("id")
+    "request_header" -> Array("id")
 
   )
 

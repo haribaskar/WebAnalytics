@@ -29,7 +29,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
 [info] Resolving org.scala-sbt#main;0.13.13 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#main;0.13.13 {compile=[default(compile)]}
-[debug] no default cache defined: set to /home/hari/.ivy2/cache
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#main;0.13.13
 [debug] 	found org.scala-sbt#main;0.13.13 in sbt-chain
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[default(compile)]}
@@ -1783,9 +1782,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.13!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 392ms :: artifacts dl 11ms
-[debug] 	report for default#webanalytics$sbt_2.10;1.0 default produced in /home/hari/IdeaProjects/WebAnalytics/target/resolution-cache/reports/default-webanalytics$sbt_2.10-default.xml
-[debug] 	resolve done (392ms resolve - 11ms download)
+[debug] :: resolution report :: resolve 447ms :: artifacts dl 12ms
+[debug] 	report for default#webanalytics$sbt_2.10;1.0 default produced in /home/shirin/Downloads/WebAnalytics/target/resolution-cache/reports/default-webanalytics$sbt_2.10-default.xml
+[debug] 	resolve done (447ms resolve - 12ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#webanalytics$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -2490,6 +2489,6 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#interface;0.13.13!interface.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#logging;0.13.13!logging.jar(src)
-[debug] :: resolution report :: resolve 91ms :: artifacts dl 13ms
-[debug] 	report for default#webanalytics$sources_2.10;1.0 default produced in /home/hari/IdeaProjects/WebAnalytics/target/resolution-cache/reports/default-webanalytics$sources_2.10-default.xml
-[debug] 	resolve done (91ms resolve - 13ms download)
+[debug] :: resolution report :: resolve 102ms :: artifacts dl 14ms
+[debug] 	report for default#webanalytics$sources_2.10;1.0 default produced in /home/shirin/Downloads/WebAnalytics/target/resolution-cache/reports/default-webanalytics$sources_2.10-default.xml
+[debug] 	resolve done (102ms resolve - 14ms download)

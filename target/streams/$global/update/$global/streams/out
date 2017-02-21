@@ -1,4 +1,4 @@
-[info] Updating {file:/home/hari/IdeaProjects/WebAnalytics/}webanalytics...
+[info] Updating {file:/home/shirin/Downloads/WebAnalytics/}webanalytics...
 [debug] :: resolving dependencies :: default#webanalytics_2.11;1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -4000,19 +4000,19 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.6!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 474ms :: artifacts dl 9ms
-[debug] 	report for default#webanalytics_2.11;1.0 compile produced in /home/hari/IdeaProjects/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-compile.xml
-[debug] 	report for default#webanalytics_2.11;1.0 runtime produced in /home/hari/IdeaProjects/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-runtime.xml
-[debug] 	report for default#webanalytics_2.11;1.0 test produced in /home/hari/IdeaProjects/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-test.xml
-[debug] 	report for default#webanalytics_2.11;1.0 provided produced in /home/hari/IdeaProjects/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-provided.xml
-[debug] 	report for default#webanalytics_2.11;1.0 optional produced in /home/hari/IdeaProjects/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-optional.xml
-[debug] 	report for default#webanalytics_2.11;1.0 compile-internal produced in /home/hari/IdeaProjects/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-compile-internal.xml
-[debug] 	report for default#webanalytics_2.11;1.0 runtime-internal produced in /home/hari/IdeaProjects/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-runtime-internal.xml
-[debug] 	report for default#webanalytics_2.11;1.0 test-internal produced in /home/hari/IdeaProjects/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-test-internal.xml
-[debug] 	report for default#webanalytics_2.11;1.0 plugin produced in /home/hari/IdeaProjects/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-plugin.xml
-[debug] 	report for default#webanalytics_2.11;1.0 sources produced in /home/hari/IdeaProjects/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-sources.xml
-[debug] 	report for default#webanalytics_2.11;1.0 docs produced in /home/hari/IdeaProjects/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-docs.xml
-[debug] 	report for default#webanalytics_2.11;1.0 pom produced in /home/hari/IdeaProjects/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-pom.xml
-[debug] 	report for default#webanalytics_2.11;1.0 scala-tool produced in /home/hari/IdeaProjects/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-scala-tool.xml
-[debug] 	resolve done (474ms resolve - 9ms download)
+[debug] :: resolution report :: resolve 924ms :: artifacts dl 15ms
+[debug] 	report for default#webanalytics_2.11;1.0 compile produced in /home/shirin/Downloads/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-compile.xml
+[debug] 	report for default#webanalytics_2.11;1.0 runtime produced in /home/shirin/Downloads/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-runtime.xml
+[debug] 	report for default#webanalytics_2.11;1.0 test produced in /home/shirin/Downloads/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-test.xml
+[debug] 	report for default#webanalytics_2.11;1.0 provided produced in /home/shirin/Downloads/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-provided.xml
+[debug] 	report for default#webanalytics_2.11;1.0 optional produced in /home/shirin/Downloads/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-optional.xml
+[debug] 	report for default#webanalytics_2.11;1.0 compile-internal produced in /home/shirin/Downloads/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-compile-internal.xml
+[debug] 	report for default#webanalytics_2.11;1.0 runtime-internal produced in /home/shirin/Downloads/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-runtime-internal.xml
+[debug] 	report for default#webanalytics_2.11;1.0 test-internal produced in /home/shirin/Downloads/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-test-internal.xml
+[debug] 	report for default#webanalytics_2.11;1.0 plugin produced in /home/shirin/Downloads/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-plugin.xml
+[debug] 	report for default#webanalytics_2.11;1.0 sources produced in /home/shirin/Downloads/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-sources.xml
+[debug] 	report for default#webanalytics_2.11;1.0 docs produced in /home/shirin/Downloads/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-docs.xml
+[debug] 	report for default#webanalytics_2.11;1.0 pom produced in /home/shirin/Downloads/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-pom.xml
+[debug] 	report for default#webanalytics_2.11;1.0 scala-tool produced in /home/shirin/Downloads/WebAnalytics/target/resolution-cache/reports/default-webanalytics_2.11-scala-tool.xml
+[debug] 	resolve done (924ms resolve - 15ms download)
 [info] Done updating.

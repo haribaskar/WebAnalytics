@@ -1,4 +1,4 @@
-[info] Updating {file:/home/hari/IdeaProjects/WebAnalytics/project/}webanalytics-build...
+[info] Updating {file:/home/shirin/Downloads/WebAnalytics/project/}webanalytics-build...
 [debug] :: resolving dependencies :: default#webanalytics-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -6131,19 +6131,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1427ms :: artifacts dl 19ms
-[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT compile produced in /home/hari/IdeaProjects/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-compile.xml
-[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT runtime produced in /home/hari/IdeaProjects/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-runtime.xml
-[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT test produced in /home/hari/IdeaProjects/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-test.xml
-[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT provided produced in /home/hari/IdeaProjects/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-provided.xml
-[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT optional produced in /home/hari/IdeaProjects/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-optional.xml
-[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT compile-internal produced in /home/hari/IdeaProjects/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-compile-internal.xml
-[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT runtime-internal produced in /home/hari/IdeaProjects/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-runtime-internal.xml
-[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT test-internal produced in /home/hari/IdeaProjects/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-test-internal.xml
-[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT plugin produced in /home/hari/IdeaProjects/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-plugin.xml
-[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT sources produced in /home/hari/IdeaProjects/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-sources.xml
-[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT docs produced in /home/hari/IdeaProjects/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-docs.xml
-[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT pom produced in /home/hari/IdeaProjects/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-pom.xml
-[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT scala-tool produced in /home/hari/IdeaProjects/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-scala-tool.xml
-[debug] 	resolve done (1427ms resolve - 19ms download)
+[debug] :: resolution report :: resolve 1401ms :: artifacts dl 18ms
+[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT compile produced in /home/shirin/Downloads/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-compile.xml
+[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT runtime produced in /home/shirin/Downloads/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-runtime.xml
+[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT test produced in /home/shirin/Downloads/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-test.xml
+[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT provided produced in /home/shirin/Downloads/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-provided.xml
+[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT optional produced in /home/shirin/Downloads/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-optional.xml
+[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT compile-internal produced in /home/shirin/Downloads/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-compile-internal.xml
+[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT runtime-internal produced in /home/shirin/Downloads/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-runtime-internal.xml
+[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT test-internal produced in /home/shirin/Downloads/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-test-internal.xml
+[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT plugin produced in /home/shirin/Downloads/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-plugin.xml
+[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT sources produced in /home/shirin/Downloads/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-sources.xml
+[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT docs produced in /home/shirin/Downloads/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-docs.xml
+[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT pom produced in /home/shirin/Downloads/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-pom.xml
+[debug] 	report for default#webanalytics-build;0.1-SNAPSHOT scala-tool produced in /home/shirin/Downloads/WebAnalytics/project/target/resolution-cache/reports/default-webanalytics-build-scala-tool.xml
+[debug] 	resolve done (1401ms resolve - 18ms download)
 [info] Done updating.

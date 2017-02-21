@@ -1,1 +1,1 @@
-create table request_header(id int not null auto_increment,method varchar(20),refer varchar(1000),path varchar(1200),cookie varchar(20),ip varchar(20),browser varchar(20),operating_system varchar(20),time datetime,primary key(id));
+create table request_header(id int not null auto_increment,method varchar(20),domain_name varchar(1000),path varchar(1200),cookie varchar(20),ip varchar(20),browser varchar(20),operating_system varchar(20),time datetime,primary key(id));

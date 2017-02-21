@@ -4,7 +4,7 @@
 		module="webanalytics$sbt_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20170221102712"
+		publication="20170221134234"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
