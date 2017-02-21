@@ -29,8 +29,9 @@ trait UserHandler extends  HttpService{
      result.toArray
   }
 
-  def insertData(method:String,domain_name:String,path:String,cookie:String,ip:String,user_agent:String)={
-    val rs=MysqlClient.executeQuery("insert into request_header(method,domain_name,path,cookie,ip,user_agent,time) values ('"+method+"','"+domain_name+"','"+path+"','"+cookie+"','"+ip+"','"+user_agent+"',NOW())")
+  def insertData(method:String,domain_name:String,path:String,persistent_cookie:String,session_cookie:String,ip:String,user_agent:String)={
+    val rs=MysqlClient.executeQuery("insert into request_header(method,domain_name,path,persistent_cookie,session_cookie,ip,user_agent,time) values ('"+method+"','"+domain_name+"','"+path+"','"+persistent_cookie+"' '"+session_cookie+"','"+ip+"','"+user_agent+"',NOW())")
+
     rs
   }
 
