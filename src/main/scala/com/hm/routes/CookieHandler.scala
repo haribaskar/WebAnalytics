@@ -9,7 +9,15 @@ import spray.routing.HttpService
 trait CookieHandler extends HttpService{
 
   val random=new scala.util.Random
-  def cookieHandle= optionalCookie("abc"){
+  def persistentCookieHandle= optionalCookie("PC"){
+
+    case Some(cookie) => setPersitentCookie(cookie.content)
+
+    case None => setPersitentCookie((random.nextInt).toString)
+
+  }
+
+  def sessionCookieHandle= optionalCookie("SC"){
 
     case Some(cookie) => setSessionCookie(cookie.content)
 
@@ -17,13 +25,22 @@ trait CookieHandler extends HttpService{
 
   }
 
-
   def setSessionCookie(cookieContent:String) = {
+
+    setCookie(new HttpCookie(
+      path = Some("/"),
+      content = cookieContent,
+      name = "SC"
+    )){
+      persistentCookieHandle
+    }
+  }
+  def setPersitentCookie(cookieContent:String) = {
     val expiresTimestamp = System.currentTimeMillis() +(1000*60*60*24*5)
     setCookie(new HttpCookie(
       path = Some("/"),
       content = cookieContent,
-      name = "abc",
+      name = "PC",
       maxAge = Some(expiresTimestamp),
       expires = Some(DateTime(expiresTimestamp))
     )){
