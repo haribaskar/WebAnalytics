@@ -10,40 +10,33 @@ import spray.http.HttpHeaders.{`Access-Control-Allow-Headers`, `Access-Control-A
 /**
   * Created by hari on 17/2/17.
   */
-trait Routes extends HttpService with CookieHandler with UserHandler
-  {
+trait Routes extends HttpService with CookieHandler with UserHandler {
 
 
-
-
-  def route =  {
+  def route = {
     respondWithHeaders(List(
       `Access-Control-Allow-Origin`(AllOrigins),
       `Access-Control-Allow-Headers`("Content-Type", "Access-Control-Allow-Headers", "Authorization", "X-Requested-With")
     )) {
-      path("bypage") {
-        cookieHandle
-      } ~ path("byuser") {
-        cookieHandle
-      } ~ path("") {
-
-        get {
-          respondWithMediaType(`text/html`) {
-            // XML is marshalled to `text/xml` by default, so we simply override here
-            complete {
-              <html>
-                <body>
-                  <h1>welcome to WebAnalytics :)</h1>
-                </body>
-              </html>
+      path("test") {
+        respondWithHeaders(List(
+          `Access-Control-Allow-Origin`(AllOrigins),
+          `Access-Control-Allow-Headers`("Content-Type", "Access-Control-Allow-Headers", "Authorization", "X-Requested-With")
+        )) {
+          headerValueByName("User-Agent") { userAgent =>
+            headerValueByName("referer") { referer =>
+              optionalCookie("ckName") {
+                case Some(cookie) => complete("referer : " + referer + " ua : " + userAgent + " cookie : " + cookie.content)
+                case None => complete("referer : " + referer + " ua : " + userAgent)
+              }
             }
           }
         }
+
+
       }
+
+
     }
-
-
   }
-
-
 }

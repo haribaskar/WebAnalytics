@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    function UserAction() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("POST", "https://localhost:8080", false);
+    xhttp.setRequestHeader("Content-type", "application/json");
+    xhttp.send();
+    var response = JSON.parse(xhttp.responseText);
+}
+</script>
+<body>
+<button type="submit" onclick="UserAction()">Search</button>
+
+</body>
+</html>
