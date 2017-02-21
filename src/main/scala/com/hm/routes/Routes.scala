@@ -1,5 +1,7 @@
 package com.hm.routes
 
+import java.net.URI
+
 import com.mysql.jdbc.interceptors.SessionAssociationInterceptor
 import spray.http.{AllOrigins, DateTime, HttpCookie}
 import spray.http.MediaTypes.`text/html`
@@ -25,18 +27,46 @@ trait Routes extends HttpService with CookieHandler with UserHandler {
         )) {
           headerValueByName("User-Agent") { userAgent =>
             headerValueByName("referer") { referer =>
-              optionalCookie("ckName") {
-                case Some(cookie) => complete("referer : " + referer + " ua : " + userAgent + " cookie : " + cookie.content)
-                case None => complete("referer : " + referer + " ua : " + userAgent)
+              headerValueByName("Origin") { Origin =>
+
+                  optionalCookie("ckName") {
+                    case Some(cookie) => complete("referer : " + referer + " ua : " + userAgent + " cookie : " + cookie.content)
+                    case None => complete("referer : " + referer + " ua : " + userAgent + " Origin : " + Origin + " Domain-name :" + getDomainName(referer) + " path :" + getPathName(referer) + " Method :" + getMethod(referer) )
+                  }
+                }
               }
             }
           }
+
+
         }
 
 
       }
+    }
 
+  def getDomainName(url:String) =  {
+
+      var uri = new URI(url)
+      val domain = uri.getHost()
+    println(domain)
+     domain
+
+  }
+  def getPathName(url:String) = {
+    var uri = new URI(url)
+    val path = uri.getRawPath()
+    path
+  }
+  def getMethod(url:String) = {
+    if(url.startsWith("https")) {
+      "HTTPS"
 
     }
+    else
+      {
+        "HTTP"
+      }
   }
+
 }
