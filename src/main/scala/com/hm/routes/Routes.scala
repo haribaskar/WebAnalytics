@@ -34,6 +34,11 @@ trait Routes extends HttpService with CookieHandler with UserHandler {
         }
 
 
+      }~path("")
+      {
+
+        sessionCookieHandle
+
       }
 
 
